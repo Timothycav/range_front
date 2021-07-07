@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+
+
+.programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 8px;
+    background-color: lightgray;
+    padding: 2rem;
+    height: 100%;
+}
+.dash_cont {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    margin-top: 2rem;
+    height: 70vh;
+
+    }
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 9rem;
+    width: 60%;
+    border: solid #FECF00 1px;
+    background-color: #fff;
+    border-radius: 12px;
+
+   
+    border-top-width:9px;
+    
+    margin-left:25px;
+   
+    height: 158px;
+    
+    -webkit-box-shadow: inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+    -moz-box-shadow:    inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+    box-shadow:         inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+
+}
+.big_box {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 11rem;
+    width: 60%;
+    border: solid #FECF00 1px;
+    background-color: #fff;
+    border-radius: 12px;
+
+    border-top-width:9px;
+    margin-top: 25px;
+    margin-left:25px;
+   
+    height: 158px;
+    padding-top:25px;
+    -webkit-box-shadow: inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+    -moz-box-shadow:    inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+    box-shadow:         inset 0px 4px 3px rgba(255, 255, 148, 0.75);
+
+
+}
+.big_box h3 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+.big_box h3:hover {
+    cursor: pointer;
+} 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.side {
+    background-color: #151E49;
+    color: #fff;
+   }
+   .side > * {
+       margin-left: 1rem;
+   }
+   .side h2 {
+       margin-left: 1rem;
+   }
+.rangehead {
+    font-size: 4rem;
+}
+.myprograms {
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.takeme2 {
+    margin-top: 3rem;
+}
+.signOut {
+    margin-top: 20px;
+    width: 45%;
+    font-size: 20px;
+    padding: 10px;
+   
+    background-color: #00287e;
+    color: #fff;
+}
+.signOut:hover {
+    cursor: pointer;
+    background-color: #6c8ac9;
+}

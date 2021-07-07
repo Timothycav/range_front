@@ -1,0 +1,31 @@
+.dash_cont2 {
+ 
+    
+
+    }
+
+    .side {
+        background-color: #151E49;
+        color: #fff;
+        padding: 2rem;
+       }
+       .side > * {
+           margin-left: 1rem;
+       }
+       .side h2 {
+           margin-left: 1rem;
+       }
+
+       .signOut {
+        margin-top: 20px;
+        width: 65%;
+        font-size: 20px;
+        padding: 10px;
+       
+        background-color: #00287e;
+        color: #fff;
+    }
+    .signOut:hover {
+        cursor: pointer;
+        background-color: #6c8ac9;
+    }
